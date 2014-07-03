@@ -1,0 +1,10 @@
+Package: sparse.cor
+Type: Package
+Title: Calculates sparse correlation and partial correlation matrices
+Version: 0.1
+Date: 2014-06-27
+Author: Eric Kramer
+Maintainer: Eric Kramer <ericransomkramer@gmail.com>
+Description: Calculating high-dimensional correlation matrices often requires prohibitively large amounts of memory. This packages provides methods for generating sparse correlation and partial correlation matrices (i.e. correlation matrices where only entries above a threshold) are retained). These matrices require much less memory. The method from Strimmer et al (2005) and the corpcor package is re-implemented here to provide rapid calculation of partial correlations. Similarly, the package contains methods for sampling from high-dimensional correlation matrices.
+License: The "GNU General Public License" version 3
+Imports: corpcor, Matrix, plyr

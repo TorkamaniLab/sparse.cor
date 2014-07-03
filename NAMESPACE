@@ -1,0 +1,2 @@
+export("sparse.cor", "sparse.pcor", "sample.cor", "sample.pcor")
+import("Matrix", "corpcor", "plyr")
