@@ -1,2 +1,2 @@
-export("sparse.cor", "sparse.pcor", "sample.cor", "sample.pcor")
+export("sparse.cor", "sparse.pcor", "sample.cor", "sample.pcor","rrBind","rcBind","get.vkd","sparse.cor.shrink","sparse.cor.noshrink")
 import("Matrix", "corpcor", "plyr")
